@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F437012D19486800E7EF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437002D19486800E7EF5B /* AppDelegate.swift */; };
+		24F437032D19486800E7EF5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437022D19486800E7EF5B /* SceneDelegate.swift */; };
+		24F437052D19486800E7EF5B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437042D19486800E7EF5B /* MainTabBarViewController.swift */; };
+		24F4370A2D19487200E7EF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F437092D19487200E7EF5B /* Assets.xcassets */; };
+		24F4370D2D19487200E7EF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F4370B2D19487200E7EF5B /* LaunchScreen.storyboard */; };
+		24F437182D19487300E7EF5B /* NetLeLeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437172D19487300E7EF5B /* NetLeLeTests.swift */; };
+		24F437222D19487300E7EF5B /* NetLeLeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437212D19487300E7EF5B /* NetLeLeUITests.swift */; };
+		24F437242D19487300E7EF5B /* NetLeLeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437232D19487300E7EF5B /* NetLeLeUITestsLaunchTests.swift */; };
+		24F437322D194DE100E7EF5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437312D194DE100E7EF5B /* HomeViewController.swift */; };
+		24F437342D194DF400E7EF5B /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437332D194DF400E7EF5B /* UpcomingViewController.swift */; };
+		24F437362D194E5800E7EF5B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437352D194E5800E7EF5B /* SearchViewController.swift */; };
+		24F437382D194E8700E7EF5B /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F437372D194E8700E7EF5B /* DownloadsViewController.swift */; };
+		24F4373F2D19A79F00E7EF5B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4373E2D19A79F00E7EF5B /* CollectionViewTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24F437142D19487300E7EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F436F52D19486800E7EF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F436FC2D19486800E7EF5B;
+			remoteInfo = NetLeLe;
+		};
+		24F4371E2D19487300E7EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F436F52D19486800E7EF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F436FC2D19486800E7EF5B;
+			remoteInfo = NetLeLe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24F436FD2D19486800E7EF5B /* NetLeLe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetLeLe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F437002D19486800E7EF5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24F437022D19486800E7EF5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24F437042D19486800E7EF5B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		24F437092D19487200E7EF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24F4370C2D19487200E7EF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24F4370E2D19487200E7EF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F437132D19487300E7EF5B /* NetLeLeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetLeLeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F437172D19487300E7EF5B /* NetLeLeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLeLeTests.swift; sourceTree = "<group>"; };
+		24F4371D2D19487300E7EF5B /* NetLeLeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetLeLeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F437212D19487300E7EF5B /* NetLeLeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLeLeUITests.swift; sourceTree = "<group>"; };
+		24F437232D19487300E7EF5B /* NetLeLeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetLeLeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24F437312D194DE100E7EF5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24F437332D194DF400E7EF5B /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		24F437352D194E5800E7EF5B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		24F437372D194E8700E7EF5B /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		24F4373E2D19A79F00E7EF5B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F436FA2D19486800E7EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F437102D19487200E7EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F4371A2D19487300E7EF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F436F42D19486800E7EF5B = {
+			isa = PBXGroup;
+			children = (
+				24F436FF2D19486800E7EF5B /* NetLeLe */,
+				24F437162D19487300E7EF5B /* NetLeLeTests */,
+				24F437202D19487300E7EF5B /* NetLeLeUITests */,
+				24F436FE2D19486800E7EF5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24F436FE2D19486800E7EF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F436FD2D19486800E7EF5B /* NetLeLe.app */,
+				24F437132D19487300E7EF5B /* NetLeLeTests.xctest */,
+				24F4371D2D19487300E7EF5B /* NetLeLeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F436FF2D19486800E7EF5B /* NetLeLe */ = {
+			isa = PBXGroup;
+			children = (
+				24F4373D2D19A73C00E7EF5B /* Managers */,
+				24F4373C2D19A72900E7EF5B /* Resources */,
+				24F4373B2D19A46000E7EF5B /* Models */,
+				24F4373A2D19A44F00E7EF5B /* Views */,
+				24F437392D19A42F00E7EF5B /* ViewModels */,
+				24F437302D194DBF00E7EF5B /* Controllers */,
+				24F437002D19486800E7EF5B /* AppDelegate.swift */,
+				24F437022D19486800E7EF5B /* SceneDelegate.swift */,
+				24F437042D19486800E7EF5B /* MainTabBarViewController.swift */,
+				24F437092D19487200E7EF5B /* Assets.xcassets */,
+				24F4370B2D19487200E7EF5B /* LaunchScreen.storyboard */,
+				24F4370E2D19487200E7EF5B /* Info.plist */,
+			);
+			path = NetLeLe;
+			sourceTree = "<group>";
+		};
+		24F437162D19487300E7EF5B /* NetLeLeTests */ = {
+			isa = PBXGroup;
+			children = (
+				24F437172D19487300E7EF5B /* NetLeLeTests.swift */,
+			);
+			path = NetLeLeTests;
+			sourceTree = "<group>";
+		};
+		24F437202D19487300E7EF5B /* NetLeLeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24F437212D19487300E7EF5B /* NetLeLeUITests.swift */,
+				24F437232D19487300E7EF5B /* NetLeLeUITestsLaunchTests.swift */,
+			);
+			path = NetLeLeUITests;
+			sourceTree = "<group>";
+		};
+		24F437302D194DBF00E7EF5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24F437312D194DE100E7EF5B /* HomeViewController.swift */,
+				24F437332D194DF400E7EF5B /* UpcomingViewController.swift */,
+				24F437352D194E5800E7EF5B /* SearchViewController.swift */,
+				24F437372D194E8700E7EF5B /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24F437392D19A42F00E7EF5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		24F4373A2D19A44F00E7EF5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24F4373E2D19A79F00E7EF5B /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24F4373B2D19A46000E7EF5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24F4373C2D19A72900E7EF5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24F4373D2D19A73C00E7EF5B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F436FC2D19486800E7EF5B /* NetLeLe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F437272D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLe" */;
+			buildPhases = (
+				24F436F92D19486800E7EF5B /* Sources */,
+				24F436FA2D19486800E7EF5B /* Frameworks */,
+				24F436FB2D19486800E7EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetLeLe;
+			productName = NetLeLe;
+			productReference = 24F436FD2D19486800E7EF5B /* NetLeLe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24F437122D19487200E7EF5B /* NetLeLeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F4372A2D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLeTests" */;
+			buildPhases = (
+				24F4370F2D19487200E7EF5B /* Sources */,
+				24F437102D19487200E7EF5B /* Frameworks */,
+				24F437112D19487200E7EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F437152D19487300E7EF5B /* PBXTargetDependency */,
+			);
+			name = NetLeLeTests;
+			productName = NetLeLeTests;
+			productReference = 24F437132D19487300E7EF5B /* NetLeLeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24F4371C2D19487300E7EF5B /* NetLeLeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F4372D2D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLeUITests" */;
+			buildPhases = (
+				24F437192D19487300E7EF5B /* Sources */,
+				24F4371A2D19487300E7EF5B /* Frameworks */,
+				24F4371B2D19487300E7EF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F4371F2D19487300E7EF5B /* PBXTargetDependency */,
+			);
+			name = NetLeLeUITests;
+			productName = NetLeLeUITests;
+			productReference = 24F4371D2D19487300E7EF5B /* NetLeLeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F436F52D19486800E7EF5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					24F436FC2D19486800E7EF5B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					24F437122D19487200E7EF5B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 24F436FC2D19486800E7EF5B;
+					};
+					24F4371C2D19487300E7EF5B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 24F436FC2D19486800E7EF5B;
+					};
+				};
+			};
+			buildConfigurationList = 24F436F82D19486800E7EF5B /* Build configuration list for PBXProject "NetLeLe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24F436F42D19486800E7EF5B;
+			productRefGroup = 24F436FE2D19486800E7EF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F436FC2D19486800E7EF5B /* NetLeLe */,
+				24F437122D19487200E7EF5B /* NetLeLeTests */,
+				24F4371C2D19487300E7EF5B /* NetLeLeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F436FB2D19486800E7EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F4370D2D19487200E7EF5B /* LaunchScreen.storyboard in Resources */,
+				24F4370A2D19487200E7EF5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F437112D19487200E7EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F4371B2D19487300E7EF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F436F92D19486800E7EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F437362D194E5800E7EF5B /* SearchViewController.swift in Sources */,
+				24F437052D19486800E7EF5B /* MainTabBarViewController.swift in Sources */,
+				24F4373F2D19A79F00E7EF5B /* CollectionViewTableViewCell.swift in Sources */,
+				24F437382D194E8700E7EF5B /* DownloadsViewController.swift in Sources */,
+				24F437012D19486800E7EF5B /* AppDelegate.swift in Sources */,
+				24F437032D19486800E7EF5B /* SceneDelegate.swift in Sources */,
+				24F437342D194DF400E7EF5B /* UpcomingViewController.swift in Sources */,
+				24F437322D194DE100E7EF5B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F4370F2D19487200E7EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F437182D19487300E7EF5B /* NetLeLeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F437192D19487300E7EF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F437242D19487300E7EF5B /* NetLeLeUITestsLaunchTests.swift in Sources */,
+				24F437222D19487300E7EF5B /* NetLeLeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F437152D19487300E7EF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F436FC2D19486800E7EF5B /* NetLeLe */;
+			targetProxy = 24F437142D19487300E7EF5B /* PBXContainerItemProxy */;
+		};
+		24F4371F2D19487300E7EF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F436FC2D19486800E7EF5B /* NetLeLe */;
+			targetProxy = 24F4371E2D19487300E7EF5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24F4370B2D19487200E7EF5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F4370C2D19487200E7EF5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F437252D19487300E7EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24F437262D19487300E7EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F437282D19487300E7EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetLeLe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24F437292D19487300E7EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetLeLe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24F4372B2D19487300E7EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetLeLe.app/NetLeLe";
+			};
+			name = Debug;
+		};
+		24F4372C2D19487300E7EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetLeLe.app/NetLeLe";
+			};
+			name = Release;
+		};
+		24F4372E2D19487300E7EF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetLeLe;
+			};
+			name = Debug;
+		};
+		24F4372F2D19487300E7EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JG48R9JL7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcgg.NetLeLeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetLeLe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F436F82D19486800E7EF5B /* Build configuration list for PBXProject "NetLeLe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F437252D19487300E7EF5B /* Debug */,
+				24F437262D19487300E7EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F437272D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F437282D19487300E7EF5B /* Debug */,
+				24F437292D19487300E7EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F4372A2D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F4372B2D19487300E7EF5B /* Debug */,
+				24F4372C2D19487300E7EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F4372D2D19487300E7EF5B /* Build configuration list for PBXNativeTarget "NetLeLeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F4372E2D19487300E7EF5B /* Debug */,
+				24F4372F2D19487300E7EF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24F436F52D19486800E7EF5B /* Project object */;
+}
